@@ -10,134 +10,260 @@
 
   <!-- Header / Hero Section -->
   <header>
-    <div>
-      <!-- Ask Copilot to teach you about `.svg`. 🙂 You'll need to resize the logo with CSS. -->
-      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
-      <!-- Main Heading -->
-      <h1>
-        Sustainability Through the Ages
-      </h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#articles" class="nav-link">Articles</a>
+        <a href="#contacts" class="nav-link">Contacts</a>
+      </div>
+    </nav>
 
-      <!-- Subheading / Description -->
-      <p>
-        Explore Intel's journey through time, discovering how our commitment
-        to innovation has shaped a more sustainable future for technology 
-        and our planet.
-      </p>
+    <div class="header-content" id="home">
+      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
+      <h1>Sustainability Through the Ages</h1>
+      <p>Explore Intel's journey through time, discovering how our commitment to innovation has shaped a more sustainable future for technology and our planet.</p>
     </div>
   </header>
 
-  <!-- Timeline Cards Section -->
-  <section>
+  <!-- Timeline Section -->
+  <section class="timeline-section">
+    <div class="timeline-container">
+      <!-- Central timeline line -->
+      <div class="timeline-line"></div>
 
-    <!-- Card 1: 1968 -->
-    <div>
-      <h2>1968</h2>
-      <h3>Intel Founded</h3>
-      <!-- Add image -->
-      <p>
-        Robert Noyce and Gordon Moore rename the newly formed company 
-        NM Electronics to Intel Corporation, laying the foundation for 
-        decades of technological innovation.
-      </p>
-    </div>
+      <!-- Timeline Card 1: 1968 - Above -->
+      <div class="timeline-card timeline-top">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">1968</h2>
+          <img src="img/1.jpg" alt="Intel Founded - 1968" class="card-image" />
+          <h3 class="title">Intel Founded</h3>
+          <p class="description">Robert Noyce and Gordon Moore rename the newly formed company NM Electronics to Intel Corporation, laying the foundation for decades of technological innovation.</p>
+        </div>
+      </div>
 
-    <!-- Card 2: 1971 -->
-    <div>
-      <h2>1971</h2>
-      <h3>First Microprocessor</h3>
-      <!-- Add image -->
-      <p>
-        Intel debuts the 4004, the world's first commercial microprocessor, 
-        igniting the microprocessor revolution and propelling the future 
-        of computing devices.
-      </p>
-    </div>
+      <!-- Timeline Card 2: 1971 - Below -->
+      <div class="timeline-card timeline-bottom">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">1971</h2>
+          <img src="img/2.jpg" alt="First Microprocessor - 1971" class="card-image" />
+          <h3 class="title">First Microprocessor</h3>
+          <p class="description">Intel debuts the 4004, the world's first commercial microprocessor, igniting the microprocessor revolution and propelling the future of computing devices.</p>
+        </div>
+      </div>
 
-    <!-- Card 3: 1978 -->
-    <div>
-      <h2>1978</h2>
-      <h3>8086 Processor</h3>
-      <!-- Add image -->
-      <p>
-        Launch of the 8086 processor, establishing the x86 architecture 
-        that drives countless PCs and servers in the modern era.
-      </p>
-    </div>
+      <!-- Timeline Card 3: 1978 - Above -->
+      <div class="timeline-card timeline-top">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">1978</h2>
+          <img src="img/3.jpg" alt="8086 Processor - 1978" class="card-image" />
+          <h3 class="title">8086 Processor</h3>
+          <p class="description">Launch of the 8086 processor, establishing the x86 architecture that drives countless PCs and servers in the modern era.</p>
+        </div>
+      </div>
 
-    <!-- Card 4: 1985 -->
-    <div>
-      <h2>1985</h2>
-      <h3>386 Processor</h3>
-      <!-- Add image -->
-      <p>
-        Intel introduces the 386 processor with 32-bit architecture, 
-        ushering in a new era of performance and multitasking for 
-        personal computers.
-      </p>
-    </div>
+      <!-- Timeline Card 4: 1985 - Below -->
+      <div class="timeline-card timeline-bottom">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">1985</h2>
+          <img src="img/4.jpg" alt="386 Processor - 1985" class="card-image" />
+          <h3 class="title">386 Processor</h3>
+          <p class="description">Intel introduces the 386 processor with 32-bit architecture, ushering in a new era of performance and multitasking for personal computers.</p>
+        </div>
+      </div>
 
-    <!-- Card 5: 2006 -->
-    <div>
-      <h2>2006</h2>
-      <h3>Peak GHG Emissions</h3>
-      <!-- Add image -->
-      <p>
-        This year marks Intel's highest annual greenhouse gas emissions 
-        for operations. Over subsequent years, Intel invests heavily in 
-        chemical abatement, renewable energy, and energy-efficient 
-        manufacturing to reverse this trend.
-      </p>
-    </div>
+      <!-- Timeline Card 5: 2006 - Above -->
+      <div class="timeline-card timeline-top">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">2006</h2>
+          <h3 class="title">Peak GHG Emissions</h3>
+          <p class="description">This year marks Intel's highest annual greenhouse gas emissions for operations. Over subsequent years, Intel invests heavily in chemical abatement, renewable energy, and energy-efficient manufacturing to reverse this trend.</p>
+        </div>
+      </div>
 
-    <!-- Card 6: 2020 -->
-    <div>
-      <h2>2020</h2>
-      <h3>RISE Strategy</h3>
-      <!-- Add image -->
-      <p>
-        Intel launches its RISE (Responsible, Inclusive, Sustainable, 
-        Enabling) strategy and 2030 goals, aiming to drive industry-wide 
-        progress on climate action, water stewardship, and waste reduction.
-      </p>
-    </div>
+      <!-- Timeline Card 6: 2020 - Below -->
+      <div class="timeline-card timeline-bottom">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">2020</h2>
+          <h3 class="title">RISE Strategy</h3>
+          <p class="description">Intel launches its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy and 2030 goals, aiming to drive industry-wide progress on climate action, water stewardship, and waste reduction.</p>
+        </div>
+      </div>
 
-    <!-- Card 7: 2022 -->
-    <div>
-      <h2>2022</h2>
-      <h3>Net-Zero By 2040</h3>
-      <!-- Add image -->
-      <p>
-        Intel announces its commitment to achieve net-zero greenhouse 
-        gas emissions (Scope 1 and 2) across its global operations 
-        by 2040, building on years of environmental initiatives.
-      </p>
-    </div>
+      <!-- Timeline Card 7: 2022 - Above -->
+      <div class="timeline-card timeline-top">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">2022</h2>
+          <h3 class="title">Net-Zero By 2040</h3>
+          <p class="description">Intel announces its commitment to achieve net-zero greenhouse gas emissions (Scope 1 and 2) across its global operations by 2040, building on years of environmental initiatives.</p>
+        </div>
+      </div>
 
-    <!-- Card 8: 2023 -->
-    <div>
-      <h2>2023</h2>
-      <h3>Renewable Electricity</h3>
-      <!-- Add image -->
-      <p>
-        The company achieves 99% renewable electricity usage worldwide, 
-        helping to drastically lower carbon emissions and driving progress 
-        toward Intel's long-term sustainability goals.
-      </p>
-    </div>
+      <!-- Timeline Card 8: 2023 - Below -->
+      <div class="timeline-card timeline-bottom">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">2023</h2>
+          <h3 class="title">Renewable Electricity</h3>
+          <p class="description">The company achieves 99% renewable electricity usage worldwide, helping to drastically lower carbon emissions and driving progress toward Intel's long-term sustainability goals.</p>
+        </div>
+      </div>
 
-    <!-- Card 9: 2024 -->
-    <div>
-      <h2>2024</h2>
-      <h3>Sustainability Summit</h3>
-      <!-- Add image -->
-      <p>
-        Intel hosts its first Sustainability Summit, uniting suppliers, 
-        government officials, and industry leaders to collaborate on 
-        next-generation sustainable semiconductor manufacturing.
-      </p>
+      <!-- Timeline Card 9: 2024 - Above -->
+      <div class="timeline-card timeline-top">
+        <div class="connector-line"></div>
+        <div class="timeline-dot-extended"></div>
+        <div class="card-content">
+          <h2 class="year">2024</h2>
+          <h3 class="title">Sustainability Summit</h3>
+          <p class="description">Intel hosts its first Sustainability Summit, uniting suppliers, government officials, and industry leaders to collaborate on next-generation sustainable semiconductor manufacturing.</p>
+        </div>
+      </div>
+
     </div>
   </section>
-  <p>Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <div class="scroll-indicator">
+    <p>← Scroll to view timeline | Hover over cards to learn more →</p>
+  </div>
+
+  <!-- Articles Section -->
+  <section class="content-section" id="articles">
+    <div class="section-container">
+      <h2 class="section-title">Articles & Resources</h2>
+      <p class="section-intro">Explore Intel's commitment to sustainability and industry leadership through these key resources and articles.</p>
+      
+      <div class="articles-grid">
+        <!-- Article 1 -->
+        <article class="article-card">
+          <h3>Intel's Sustainability Report 2023</h3>
+          <p><strong>Source:</strong> Intel Corporate Responsibility</p>
+          <p>Intel's comprehensive annual sustainability report detailing progress on environmental goals, renewable energy initiatives, waste reduction, and water stewardship programs across global operations.</p>
+          <a href="https://www.intel.com/content/dam/www/central-libraries/us/en/documents/corporate-responsibility/intel-2023-csr-report.pdf" target="_blank" class="article-link">Read Report →</a>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="article-card">
+          <h3>Net-Zero by 2040 Commitment</h3>
+          <p><strong>Source:</strong> Intel Environmental Strategy</p>
+          <p>Learn how Intel pledged to achieve net-zero greenhouse gas emissions (Scope 1 and 2) by 2040, backed by significant investments in renewable energy, energy-efficient manufacturing, and chemical abatement technologies.</p>
+          <a href="https://www.intel.com/content/www/en/en/corporate-responsibility/sustainability.html" target="_blank" class="article-link">Learn More →</a>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="article-card">
+          <h3>RISE Strategy: Responsible Innovation</h3>
+          <p><strong>Source:</strong> Intel Corporate Responsibility</p>
+          <p>Intel's RISE (Responsible, Inclusive, Sustainable, Enabling) strategy launched in 2020 aims to drive industry-wide progress on climate action, water stewardship, waste reduction, and sustainable manufacturing practices.</p>
+          <a href="https://www.intel.com/content/www/en/en/corporate-responsibility.html" target="_blank" class="article-link">Explore Strategy →</a>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="article-card">
+          <h3>99% Renewable Electricity Achievement</h3>
+          <p><strong>Source:</strong> Intel Energy Initiatives</p>
+          <p>In 2023, Intel achieved 99% renewable electricity usage worldwide, a major milestone in reducing carbon emissions and advancing progress toward long-term sustainability goals across manufacturing facilities.</p>
+          <a href="https://www.intel.com/content/www/en/en/corporate-responsibility/sustainability.html" target="_blank" class="article-link">View Details →</a>
+        </article>
+
+        <!-- Article 5 -->
+        <article class="article-card">
+          <h3>Semiconductor Manufacturing Sustainability</h3>
+          <p><strong>Source:</strong> Intel Manufacturing Leadership</p>
+          <p>Discover how Intel is revolutionizing semiconductor manufacturing with sustainable practices, including chemical abatement, water recycling, and energy-efficient production processes that set industry standards.</p>
+          <a href="https://www.intel.com/content/dam/www/central-libraries/us/en/documents/corporate-responsibility/intel-2023-csr-report.pdf" target="_blank" class="article-link">Read More →</a>
+        </article>
+
+        <!-- Article 6 -->
+        <article class="article-card">
+          <h3>Sustainability Summit 2024</h3>
+          <p><strong>Source:</strong> Intel Events</p>
+          <p>Intel's first-ever Sustainability Summit brings together suppliers, government officials, and industry leaders to collaborate on next-generation sustainable semiconductor manufacturing and drive collective progress on climate action.</p>
+          <a href="https://www.intel.com/content/www/en/en/corporate-responsibility.html" target="_blank" class="article-link">Learn About Event →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts Section -->
+  <section class="content-section" id="contacts">
+    <div class="section-container">
+      <h2 class="section-title">Contact Intel</h2>
+      <p class="section-intro">Get in touch with Intel for inquiries about sustainability initiatives, partnerships, or corporate information.</p>
+      
+      <div class="contacts-grid">
+        <!-- Contact 1 -->
+        <div class="contact-card">
+          <h3>Corporate Headquarters</h3>
+          <p><strong>Location:</strong></p>
+          <p>Intel Corporation<br>
+          2200 Mission College Boulevard<br>
+          Santa Clara, CA 95054<br>
+          United States</p>
+          <p><strong>Phone:</strong> +1 (408) 765-8080</p>
+          <p><strong>Website:</strong> <a href="https://www.intel.com" target="_blank">www.intel.com</a></p>
+        </div>
+
+        <!-- Contact 2 -->
+        <div class="contact-card">
+          <h3>Corporate Responsibility</h3>
+          <p><strong>For Sustainability & CSR Inquiries:</strong></p>
+          <p>Email: crreporting@intel.com</p>
+          <p>Department: Corporate Responsibility & Sustainability</p>
+          <p>Intel's Corporate Responsibility team handles inquiries related to sustainability initiatives, environmental programs, and social responsibility matters.</p>
+        </div>
+
+        <!-- Contact 3 -->
+        <div class="contact-card">
+          <h3>Investor Relations</h3>
+          <p><strong>For Investor Inquiries:</strong></p>
+          <p>Email: investor.relations@intel.com</p>
+          <p><strong>Phone:</strong> +1 (408) 765-7882</p>
+          <p>Intel's Investor Relations team provides information about financial performance, sustainability reports, and corporate governance.</p>
+        </div>
+
+        <!-- Contact 4 -->
+        <div class="contact-card">
+          <h3>Media & Press</h3>
+          <p><strong>For Media Inquiries:</strong></p>
+          <p>Email: press@intel.com</p>
+          <p><strong>Phone:</strong> +1 (408) 765-8080</p>
+          <p>Contact Intel's Press Office for media inquiries, press releases, and information about company announcements.</p>
+        </div>
+
+        <!-- Contact 5 -->
+        <div class="contact-card">
+          <h3>Customer Support</h3>
+          <p><strong>For Product & Technical Support:</strong></p>
+          <p>Visit: <a href="https://www.intel.com/content/www/en/en/support.html" target="_blank">intel.com/support</a></p>
+          <p>24/7 technical support available for Intel products and services through online chat, phone, and email channels.</p>
+        </div>
+
+        <!-- Contact 6 -->
+        <div class="contact-card">
+          <h3>Sustainability Contact</h3>
+          <p><strong>Environmental & Sustainability Programs:</strong></p>
+          <p>Website: <a href="https://www.intel.com/content/www/en/en/corporate-responsibility/sustainability.html" target="_blank">Intel Sustainability</a></p>
+          <p>Learn more about Intel's environmental commitments, renewable energy initiatives, and sustainability goals for a better future.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
